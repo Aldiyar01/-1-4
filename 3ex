@@ -1,8 +1,8 @@
 ﻿#include <iostream>
-
+using namespace std;
 int main() {
     int n;
-    std::cin >> n; 
+    cin >> n; 
 
     int sum = 0; 
    
@@ -10,7 +10,7 @@ int main() {
         sum += i * i;
     }
 
-    std::cout << sum << std::endl;
+    cout << sum << endl;
 
     return 0;
 }
