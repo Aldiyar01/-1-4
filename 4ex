@@ -10,7 +10,7 @@ int main() {
         sum += i * i;
     }
 
-     cout << sum << std::endl;
+     cout << sum << endl;
 
     return 0;
 }
